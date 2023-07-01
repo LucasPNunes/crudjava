@@ -13,7 +13,6 @@ public class Clientes {
         this.id = id;
         this.nome = nome;
         this.email = email;
-        this.idade = idade;
         this.dataCadastro = dataCadastro;
     }
 
@@ -35,14 +34,6 @@ public class Clientes {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
     }
 
     public Date getDataCadastro() {
