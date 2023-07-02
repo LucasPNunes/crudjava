@@ -6,19 +6,17 @@ public class Clientes {
     private int id;
     private String nome;
     private String email;
-    private int idade;
     private Date dataCadastro;
 
-    public Clientes(int id, String nome, String email, int idade, Date dataCadastro) {
-        this.id = id;
-        this.nome = nome;
-        this.email = email;
-        this.dataCadastro = dataCadastro;
+    public Clientes() {
+
     }
 
     public int getId() {
         return id;
     }
+
+    public void setId(int id){ this.id = id; }
 
     public String getNome() {
         return nome;
