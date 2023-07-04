@@ -8,7 +8,7 @@
 
 ## Executar projeto 
 
-    - É necessário possuír o SGBD PostgreSQL instalado e um banco com o nome tb_tarefas já criado.
+    - É necessário possuír o SGBD PostgreSQL instalado e um banco com o nome crudDB já criado.
 
 ##### Autor
     Lucas P. Nunes
